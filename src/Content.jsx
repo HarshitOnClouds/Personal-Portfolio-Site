@@ -8,7 +8,7 @@ const [tab, setTab] = useState('About')
 
 function Nav(props){
     return(
-        <div className={`px-2 py-1 rounded-3xl text-xl text-amber-950 cursor-pointer`} onClick={()=>{setTab(props.item) }}>
+        <div className={`px-2 py-2 rounded-3xl text-xl text-amber-950 cursor-pointer active:scale-90 active:opacity-70 transition transform `} onClick={()=>{setTab(props.item) }}>
             {props.item}
         </div>
     )
@@ -51,7 +51,7 @@ function Blog(props){
 
     return(
         <div className="bg-neutral-900 rounded-2xl p-2 md:w-4/5">
-            <div className="choose flex bg-yellow-300  rounded-2xl px-3 py-2 mb-4 justify-around items-center">
+            <div className="choose flex bg-yellow-300  rounded-2xl px-3 py-2 mb-4 justify-around items-center  ">
                 <Nav item='About'/>
                 <Nav item='Portfolio'/>
                 <Nav item='Blogs'/>
