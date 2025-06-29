@@ -27,7 +27,7 @@ function Intropart(){
             <div className='details'>
               <div className='text-2xl text-white mb-2'>Harshit Gupta</div>
               <div className='text-sm text-white bg-zinc-500 rounded-2xl px-2 py-1 flex justify-center'>Web Developer</div>
-              <div className='text-yellow-300 mt-2 ml-8 cursor-pointer active:scale-90 active:opacity-70 ' onClick={()=>setShowmore(!showmore)}>
+              <div className='text-yellow-300 mt-2 ml-8 cursor-pointer active:scale-90 active:opacity-70 transition transform' onClick={()=>setShowmore(!showmore)}>
                 {showmore ? 'see less' : 'see more'} 
               </div>
             </div>
