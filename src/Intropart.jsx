@@ -19,8 +19,8 @@ function Intropart(){
   const [showmore, setShowmore] = useState(false)
 
     return(
-        <div className=' bg-neutral-900 rounded-4xl p-4 m-4 md:w-1/5'>
-         <div className="flex md:flex-col  justify-around items-center p-5">
+        <div className=' bg-neutral-900 rounded-4xl p-1 m-1 md:w-1/5'>
+         <div className="flex md:flex-col  justify-around items-center px-3 py-2">
             <div className="pfp bg-zinc-500 p-2 w-30 rounded-3xl">
               <img className="w-30 rounded-2xl" src={pfp}/>
             </div>
