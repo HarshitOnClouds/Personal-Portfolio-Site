@@ -120,10 +120,10 @@ function Blog(props){
                 <hr className="ml-10 w-20 text-yellow-300 mb-5" />  
                 <div className='flex flex-col items-center md:flex-row md: justify-around'>
                     <iframe className='w-80 h-50 rounded-4xl mb-10' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d885744.3431293546!2d77.33020886562498!3d29.86603759999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3650bfe37a7%3A0xa9d19b15af050467!2sIndian%20Institute%20Of%20Technology%20Roorkee!5e0!3m2!1sen!2sin!4v1751138704121!5m2!1sen!2sin" allowFullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                    <form className='flex flex-col items-center' action="">
-                        <input className='text-white bg-slate-700 px-3 py-2 rounded-2xl w-60' type="text" placeholder='Your Name'/>
-                        <input className='text-white bg-slate-700 px-3 py-2 rounded-2xl my-4 w-60' type="email" placeholder='Your Email'/>
-                        <textarea className='text-white bg-slate-700 px-3 py-2 rounded-2xl w-60 h-80 resize-none' name="" placeholder='Your Message'></textarea>
+                    <form className='flex flex-col items-center' action="https://formspree.io/f/xdkzjkln" method='post' >
+                        <input className='text-white bg-slate-700 px-3 py-2 rounded-2xl w-60' type="text" name='Name' placeholder='Your Name'/>
+                        <input className='text-white bg-slate-700 px-3 py-2 rounded-2xl my-4 w-60' type="email" name='Email' placeholder='Your Email'/>
+                        <textarea className='text-white bg-slate-700 px-3 py-2 rounded-2xl w-60 h-80 resize-none' name="Message" placeholder='Your Message'></textarea>
                         <input className='my-4 text-white bg-blue-500 w-40 rounded-2xl ' type="submit" />
                     </form>
                 </div>
