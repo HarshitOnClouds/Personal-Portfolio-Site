@@ -23,7 +23,6 @@ function Intropart(){
          <div className="flex md:flex-col  justify-around items-center px-3 py-2">
             <div className="pfp bg-zinc-500 p-2 w-30 rounded-3xl">
               <img className="w-30 rounded-2xl" src={pfp}/>
-              <img className="w-30 rounded-2xl" src={pfp}/>
             </div>
             <div className='details'>
               <div className='text-2xl text-white mb-2'>Harshit Gupta</div>
