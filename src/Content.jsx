@@ -1,4 +1,3 @@
-import Project1 from './assets/project1.png';
 import Blog1 from './assets/freedom.webp'
 import { useState } from 'react';
 
@@ -87,11 +86,10 @@ function Blog(props){
                 <h1 className="text-white px-5 py-2 text-4xl" >Portfolio</h1>
                 <hr className="ml-10 w-20 text-yellow-300 mb-5" />
                 <div className='flex flex-col items-center md:flex-row '>
-                <Project imgname={Project1} link='https://her-pov-harshitonclouds-projects.vercel.app/' head='Her Pov' content='a simulator to show her pov of your pathetic text' />
-                <Project imgname={Project1} link='https://her-pov-harshitonclouds-projects.vercel.app/' head='Her Pov' content='a simulator to show her pov of your pathetic text' />
-                <Project imgname={Project1} link='https://her-pov-harshitonclouds-projects.vercel.app/' head='Her Pov' content='a simulator to show her pov of your pathetic text' />
-                <Project imgname={Project1} link='https://her-pov-harshitonclouds-projects.vercel.app/' head='Her Pov' content='a simulator to show her pov of your pathetic text' />
-                <Project imgname={Project1} link='https://her-pov-harshitonclouds-projects.vercel.app/' head='Her Pov' content='a simulator to show her pov of your pathetic text' />
+                <Project imgname='project1.png' link='https://her-pov-harshitonclouds-projects.vercel.app/' head='Her Pov' content='A simulator to show her pov of your pathetic text' />
+                <Project imgname='project2.png' link='https://secret-conversation.vercel.app/' head='Secret Conversation' content='Msg encryptor and decryptor with key' />
+                <Project imgname='project3.png' link='https://anshuman-birthday.vercel.app/' head='Birthday' content='Me wishing my friend happy birthday using reactbits.dev' />
+                <Project imgname='project4.png' link='https://campus-sphere-sigma.vercel.app/' head='CampusSphere' content='A Map focused informative and fun app' />
                 </div>
             </div>
 
