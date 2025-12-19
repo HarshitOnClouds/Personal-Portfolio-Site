@@ -89,6 +89,7 @@ function Blog(props){
                 <Project imgname='project2.png' link='https://secret-conversation.vercel.app/' head='Secret Conversation' content='Msg encryptor and decryptor with key' />
                 <Project imgname='project3.png' link='https://anshuman-birthday.vercel.app/' head='Birthday' content='Me wishing my friend happy birthday using reactbits.dev' />
                 <Project imgname='project4.png' link='https://campus-sphere-sigma.vercel.app/' head='CampusSphere' content='A Map focused informative and fun app' />
+                <Project imgname='project5.png' link='https://personal-cat.vercel.app/' head='The Cat App' content='A personal cat - unfinished project' />
                 </div>
             </div>
 
